@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import styles from "./NavBar.module.css"
+
 import { motion, AnimatePresence } from 'framer-motion'
 
 
