@@ -111,10 +111,10 @@ function CrewMembers() {
                 <div className="lg:gap-10 lg:mt-20 lg:flex lg:flex-col-reverse lg:basis-2/5">
                     <hr className="lg:hidden lg:items-start lg:flex md:hidden mt-14 bg-slate-600 text-slate-600" />
                     <div className="lg:justify-start  lg:mt-32  flex md:gap-6 gap-10 justify-center md:mt-0 mt-14">
-                        <div onClick={()=> handleClick(0)} className={` ${isActive === 0 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
-                        <div onClick={()=> handleClick(1)} className={` ${isActive === 1 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
-                        <div onClick={()=> handleClick(2)} className={` ${isActive === 2 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
-                        <div onClick={()=> handleClick(3)} className={` ${isActive === 3 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
+                        <div onClick={()=> handleClick(0)} className={` cursor-pointer ${isActive === 0 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
+                        <div onClick={()=> handleClick(1)} className={` cursor-pointer ${isActive === 1 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
+                        <div onClick={()=> handleClick(2)} className={` cursor-pointer ${isActive === 2 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
+                        <div onClick={()=> handleClick(3)} className={` cursor-pointer ${isActive === 3 ? "bg-white" : "bg-gray-600"} md:w-4 md:h-4 w-5 h-5 rounded-full  hover:bg-white`}></div>
                     </div>
 
                     <AnimatePresence>

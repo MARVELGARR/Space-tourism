@@ -92,9 +92,9 @@ function TechnologyCard() {
 
       <div className="lg:flex  lg:justify-center lg:items-center lg:basis-2/3">
         <div className=" lg:-mt-2 lg:gap-16   flex lg:flex-col justify-center items-center gap-10 mt-10">
-          <div onClick={()=>handleClick(0)} className={` ${isActive === 0 ? "bg-white text-slate-900" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>1</div>
-          <div onClick={()=>handleClick(1)} className={` ${isActive === 1 ? "bg-white text-slate-900" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>2</div>
-          <div onClick={()=>handleClick(2)} className={` ${isActive === 2 ? "bg-white text-slate-900" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>3</div>
+          <div onClick={()=>handleClick(0)} className={` cursor-pointer ${isActive === 0 ? "bg-white text-slate-800" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>1</div>
+          <div onClick={()=>handleClick(1)} className={` cursor-pointer ${isActive === 1 ? "bg-white text-slate-800" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>2</div>
+          <div onClick={()=>handleClick(2)} className={` cursor-pointer ${isActive === 2 ? "bg-white text-slate-800" : "md:bg-transparent md:border-2 bg-slate-800 text-white"}    flex items-center justify-center rounded-full  text-white md:w-16 md:h-16 w-12 h-12 md`}>3</div>
           
         </div>
 

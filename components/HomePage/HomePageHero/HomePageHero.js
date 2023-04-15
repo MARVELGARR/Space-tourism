@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 function HomePageHero() {
 
   return (
-    <div className="lg:mt-64 lg:flex h-screen lg:border-lime-300 lg:flex-row lg:gap-10  md:pl-28 md:gap-20 md:pr-28 flex flex-col gap- mb-56 justify-center items-center">
+    <div className="lg:mt-64 lg:flex h-screen lg:border-lime-300 lg:flex-row lg:gap-10  md:pl-28 md:gap-20 md:pr-28 flex flex-col gap-10 mb-56 justify-center items-center">
       <div className="lg:text-left lg:basis-2/4 lg:flex-wrap      md:flex md:gap-8 pl-2 pr-3 text-white text-center mt-40 flex flex-col gap-5 z-10">
         <h4 className="text-xl">SO, YOU WANT TO TRAVEL TO</h4>
         <h1 className="md:text-9xl  text-6xl font-bellefair">SPACE</h1>
